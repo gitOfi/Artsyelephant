@@ -1,0 +1,158 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+
+body {
+color: #252525;
+font-family: Georgia, serif;
+font-size: 16.5px;
+background: url('https://lh3.googleusercontent.com/-TWsVWnoLDHE/U9WisoRxfoI/AAAAAAAAH3I/BCTpRPreZac/w830-h553-no/Skillcrush_Computer.jpg');
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+h1 {
+font-size: 65px;
+line-height: .8;
+margin: 30px 0px 30px 4px;
+}
+
+h3 {
+color: white;
+background: #CFC6C2;
+border-bottom-left-radius: 5px;
+padding: 10px;
+margin: 15px 0 15px;
+font-size: 19px;
+letter-spacing: 1.25px;
+font-weight: lighter;
+}
+
+h3 {
+display: block;
+}
+
+p {
+color: #3b3b3b;
+padding: 10px 20px 0 7px;
+line-height: 25px;
+margin: 0;
+}
+
+p {
+display: block;
+}
+
+div {
+display: block;
+}
+
+ol, ul {
+padding: 0 0 0 5px;
+}
+
+ul {
+display: block;
+list-style-type: disc;
+}
+
+li {
+display: list-item;
+}
+
+.social-media ul li {
+float: left;
+padding-top: 12px;
+}
+
+.social-media ul li.instagram a {
+background: url('http://skillcrush.com/static/resume-two/images/social.png');
+background-position: 0 0 px;
+margin-right: 5px;
+}
+
+.social-media ul li.twitter a {
+background: url('http://skillcrush.com/static/resume-two/images/social.png');
+background-position: 63px 62px;
+margin-right: 3px;
+}
+
+.social-media ul li.dribbble a {
+background-position: -160px 62px;
+margin-right: 3px;
+}
+
+.social-media ul li a {
+margin: 0px;
+padding: 0px;
+width: 32px;
+height: 31px;
+display: block;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+
+a {
+color: #FF9A6B;
+text-decoration: none;
+}
+
+#container {
+background: rgba(255, 255, 255, 0.9);
+float: right;
+margin-top: 40px;
+width: 380px;
+height:485px;
+padding: 5px 0px 10px 20px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
